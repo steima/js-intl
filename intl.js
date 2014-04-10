@@ -70,7 +70,7 @@ function LanguageTranslator(language) {
 	/** Translate rendered text */
 	this.applyText = function() {
 		var t = this;
-		jQuery.each($.find('[data-i18n]'), function(index, value) {
+		jQuery.each(jQuery.find('[data-i18n]'), function(index, value) {
 			var element = jQuery(value);
 			var key = element.attr('data-i18n');
 			var value = t.text(key);
