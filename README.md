@@ -29,6 +29,8 @@ navigator.globalization.getPreferredLanguage(function(language) {
 });
 ```
 
+To view a demo that translates an English page to German [click here](https://rawgithub.com/steima/js-intl/master/demo.html).
+
 This library depends on some modern jQuery version ;) tested with many ... they all worked!
 
 It should be compatible if used with other JS frameworks. This library does NOT require jQuery to be bound to the $ sign.
