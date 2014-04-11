@@ -5,7 +5,7 @@
 /** Default Language in case no language object was created by app */
 var DEFAULT_SYSTEM_LANGAUGE = 'en';
 
-var DEBUG_i18n = false;
+var DEBUG_i18n = true;
 
 /** Prepend to URL path */
 var URL_PREFIX = 'i18n/';
