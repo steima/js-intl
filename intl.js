@@ -29,6 +29,7 @@ function LanguageTranslator(language) {
 		jQuery.ajax({
 			type: 'GET',
 			url: url,
+			converters: {"* text": window.String },
 			success: function(data) {
 				if(DEBUG_i18n) console.log('result of loading translation file');
 				translationModel._parseJsonTranslation(data);
